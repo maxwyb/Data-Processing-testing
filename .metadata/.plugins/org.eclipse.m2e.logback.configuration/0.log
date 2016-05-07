@@ -1,0 +1,10 @@
+2016-05-06 16:58:16,866 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Apache-testing:Apache-testing:0.0.1-SNAPSHOT @ /Users/Max/Desktop/Data-Processing-testing/Apache-testing/pom.xml.
+2016-05-06 16:58:17,764 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Apache-testing:Apache-testing:0.0.1-SNAPSHOT @ /Users/Max/Desktop/Data-Processing-testing/Apache-testing/pom.xml.
+2016-05-06 16:58:17,788 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-06 16:58:17,790 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Apache-testing/src/main/resources
+2016-05-06 16:58:17,792 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-06 16:58:17,793 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Apache-testing/src/test/resources
+2016-05-06 16:58:19,665 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-06 16:58:19,665 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Apache-testing/src/main/resources
+2016-05-06 16:58:19,666 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-06 16:58:19,667 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Apache-testing/src/test/resources
