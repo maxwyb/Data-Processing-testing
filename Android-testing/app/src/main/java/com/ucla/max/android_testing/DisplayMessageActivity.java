@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +14,8 @@ import android.widget.TextView;
 import android.view.MenuItem;
 import com.ucla.max.android_testing.R;
 
+import java.io.IOException;
+
 public class DisplayMessageActivity extends AppCompatActivity {
 
     @Override
@@ -20,7 +23,19 @@ public class DisplayMessageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_message);
 
-        /*
+        Log.d("sunnyDay", "onCreate() is called.");
+
+        try {
+            Producer.startProducer1();
+        } catch (IOException exception) {
+            Log.d("sunnyDay", exception.getMessage());
+        }
+
+        Producer.startProducer2();
+}
+
+
+/*
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.container, new PlaceholderFragment()).commit();
@@ -60,7 +75,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         RelativeLayout layout = (RelativeLayout) findViewById(R.id.content);
         layout.addView(textView);
         */
-    }
+}
 
     /*
     @Override
@@ -75,9 +90,9 @@ public class DisplayMessageActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
     */
-    /**
-     * A placeholder fragment containing a simple view.
-     */
+/**
+ * A placeholder fragment containing a simple view.
+ */
     /*
     public static class PlaceholderFragment extends Fragment {
 
@@ -92,4 +107,3 @@ public class DisplayMessageActivity extends AppCompatActivity {
         }
     }
     */
-}

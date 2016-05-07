@@ -3,6 +3,9 @@
 buildscript {
     repositories {
         jcenter()
+//        maven {
+//            url 'repo1.maven.org/maven2';
+//        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.0'
@@ -15,9 +18,28 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+//        maven {
+//            url 'repo1.maven.org/maven2';
+//        }
     }
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+//repositories {
+//    mavenCentral()
+//}
+
+//dependencies {
+//    compile fileTree(dir: 'libs', include: ['*.jar'])
+//    compile 'org.apache.kafka:kafka-clients-v0.9.0.0'
+//    /*
+//    <dependency>
+//    <groupId>org.apache.kafka</groupId>
+//	<artifactId>kafka-clients</artifactId>
+//    <version>0.9.0.0</version>
+//	</dependency>
+//	*/
+//}

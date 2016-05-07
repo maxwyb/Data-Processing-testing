@@ -3,7 +3,7 @@ package com.ucla.max.android_testing;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
-import android.widget.EditText;
+import android.util.Log;
 import android.view.View;
 
 
@@ -20,10 +20,12 @@ public class MyActivity extends AppCompatActivity {
     /** Called when the user clicks the Send button */
     public void sendMessage(View view) {
         // Do something in response to button
+        Log.d("sunnyDay", "sendMessage() is being called.");
         Intent intent = new Intent(this, DisplayMessageActivity.class);
-        EditText editText = (EditText) findViewById(R.id.edit_message);
-        String message = editText.getText().toString();
-        intent.putExtra(EXTRA_MESSAGE, message);
+//        EditText editText = (EditText) findViewById(R.id.edit_message);
+//        String message = editText.getText().toString();
+//        intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
 }
+
