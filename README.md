@@ -1,6 +1,6 @@
 ## Apache-testing ##
 ### Updates & Current problems ###
-* (Not necessary for the project)~In Apache-testing eclipse project~: 
+* (Not necessary for the project)~~In Apache-testing eclipse project~~: 
 	* When running: `NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable` 
 		- Tried changing `$LD_LIBRARY_PATH` 
 		- Tried defining `Djava.library.path` as VM argument in eclipse Run configuration 
