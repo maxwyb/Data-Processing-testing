@@ -24,14 +24,23 @@ public class DisplayMessageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_display_message);
 
         Log.d("sunnyDay", "onCreate() is called.");
+        System.out.printf("check if printf() works?");
 
-        try {
-            Producer.startProducer1();
-        } catch (IOException exception) {
-            Log.d("sunnyDay", exception.getMessage());
-        }
+//        try {
+//            Consumer.startConsumer1();
+//        } catch (IOException exception) {
+//            Log.d("sunnyDay", exception.getMessage());
+//        }
 
-        Producer.startProducer2();
+        Consumer.startConsumer2();
+
+//        try {
+//            Producer.startProducer1();
+//        } catch (IOException exception) {
+//            Log.d("sunnyDay", exception.getMessage());
+//        }
+//
+//        Producer.startProducer2();
 }
 
 

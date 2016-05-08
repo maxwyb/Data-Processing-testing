@@ -13,3 +13,49 @@
 2016-05-06 17:06:08,641 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Apache-testing/src/main/resources
 2016-05-06 17:06:08,643 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-05-06 17:06:08,643 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Apache-testing/src/test/resources
+2016-05-07 18:54:27,086 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.kafka:kafka-clients:0.9.0.1 @ /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/pom.xml.
+2016-05-07 18:54:27,361 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-07 18:54:27,363 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/src/main/resources
+2016-05-07 18:54:27,365 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-07 18:54:27,365 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/src/test/resources
+2016-05-07 18:54:27,401 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Kafka-testing/src
+2016-05-07 18:54:27,402 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Kafka-testing/src/test/java because it overlaps with /Kafka-testing/src
+2016-05-07 18:54:27,448 [Worker-0] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-05-07 18:54:27,491 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.kafka:kafka-clients:0.9.0.1 @ /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/pom.xml.
+2016-05-07 18:54:27,543 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Kafka-testing/src
+2016-05-07 18:54:27,543 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Kafka-testing/src/test/java because it overlaps with /Kafka-testing/src
+2016-05-07 18:54:27,568 [Worker-0] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-05-07 18:54:28,375 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-07 18:54:28,375 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/src/main/resources
+2016-05-07 18:54:28,376 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-07 18:54:28,377 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/src/test/resources
+2016-05-07 18:54:41,140 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-07 18:54:41,141 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/src/main/resources
+2016-05-07 18:54:41,142 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-07 18:54:41,142 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/src/test/resources
+2016-05-07 18:56:05,864 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-05-07 18:56:05,885 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.kafka:kafka-clients:0.9.0.1 @ /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/pom.xml.
+2016-05-07 18:56:05,911 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Kafka-testing/src
+2016-05-07 18:56:05,911 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Kafka-testing/src/test/java because it overlaps with /Kafka-testing/src
+2016-05-07 18:56:05,945 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-05-07 18:56:06,075 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-07 18:56:06,075 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/src/main/resources
+2016-05-07 18:56:06,076 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-07 18:56:06,077 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/src/test/resources
+2016-05-07 18:57:25,080 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.kafka:kafka-clients:0.9.0.1 @ /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/pom.xml.
+2016-05-07 18:57:25,812 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/0.9.0.1/kafka-clients-0.9.0.1.pom
+2016-05-07 18:57:25,823 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/0.9.0.1/kafka-clients-0.9.0.1.pom
+2016-05-07 18:57:25,859 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/0.9.0.1/kafka-clients-0.9.0.1.jar
+2016-05-07 18:57:26,042 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/0.9.0.1/kafka-clients-0.9.0.1.jar
+2016-05-07 18:57:26,086 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-07 18:57:26,087 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/src/main/resources
+2016-05-07 18:57:26,088 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-07 18:57:26,089 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/src/test/resources
+2016-05-07 18:57:27,224 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-07 18:57:27,225 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/src/main/resources
+2016-05-07 18:57:27,225 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-07 18:57:27,226 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/src/test/resources
+2016-05-07 18:58:50,569 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-07 18:58:50,570 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/src/main/resources
+2016-05-07 18:58:50,571 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-07 18:58:50,571 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Max/Desktop/Data-Processing-testing/Kafka-testing/src/test/resources

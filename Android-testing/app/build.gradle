@@ -6,8 +6,10 @@ repositories {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile group: 'org.apache.kafka', name:'kafka-clients', version:'0.9.0.1'
+    compile group: 'org.apache.kafka', name:'kafka-clients', version:'0.9.0.0' // 0.9.0.1 latest version
     compile group: 'com.google.guava', name: 'guava', version: '19.0'
+    compile group: 'org.hdrhistogram', name: 'HdrHistogram', version: '1.0.9'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.5.4'
     /*
     <dependency>
     <groupId>org.apache.kafka</groupId>
@@ -38,18 +40,26 @@ android {
     // add resources path for producer.props
     sourceSets {
         main {
-            manifest.srcFile 'src/main/AndroidManifest.xml'
             /*
+            manifest.srcFile 'src/main/AndroidManifest.xml'
             java.srcDirs = ['src/main/java']
             // res.srcDirs = ['src/main/res', 'abs-res', 'he-res']
             res.srcDirs = ['src/main/res']
-            */
+
             java {
                 srcDir 'src/main/java'
             }
             resources {
                 srcDir 'src/main/res'
             }
+            */
+            manifest.srcFile 'src/main/AndroidManifest.xml'
+            java.srcDirs = ['src/main/java']
+            resources.srcDirs = ['src/main/res']
+//            aidl.srcDirs = ['src']
+//            renderscript.srcDirs = ['src']
+            res.srcDirs = ['src/main/res']
+            assets.srcDirs = ['src/main/assets']
         }
     }
 }
