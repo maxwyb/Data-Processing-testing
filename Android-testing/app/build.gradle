@@ -10,6 +10,7 @@ dependencies {
     compile group: 'com.google.guava', name: 'guava', version: '19.0'
     compile group: 'org.hdrhistogram', name: 'HdrHistogram', version: '1.0.9'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.5.4'
+    compile group: 'org.apache.spark', name: 'spark-core_2.10', version: '1.6.1'
     /*
     <dependency>
     <groupId>org.apache.kafka</groupId>
@@ -62,6 +63,10 @@ android {
             assets.srcDirs = ['src/main/assets']
         }
     }
+
+//    packagingOptions {
+//        exclude 'META-INF/LICENSE.txt'
+//    }
 }
 
 dependencies {

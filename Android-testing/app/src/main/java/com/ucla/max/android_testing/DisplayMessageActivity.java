@@ -32,7 +32,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
 //            Log.d("sunnyDay", exception.getMessage());
 //        }
 
-        Consumer.startConsumer2();
+//        Consumer.startConsumer2();
 
 //        try {
 //            Producer.startProducer1();
@@ -41,6 +41,8 @@ public class DisplayMessageActivity extends AppCompatActivity {
 //        }
 //
 //        Producer.startProducer2();
+
+        SparkData.piEstimation();
 }
 
 
